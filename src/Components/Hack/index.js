@@ -1,8 +1,7 @@
-import { useState } from "react";
 import QRCode from "react-qr-code";
 
 export default function Hack({ route }) {
-    const supported = 'contacts' in navigator;
+   // const supported = 'contacts' in navigator;
 
     async function hack() {
         console.log('hack');

@@ -16,7 +16,7 @@ export default function Login() {
         event.preventDefault();
 
         try {
-            const response = await signInWithEmailAndPassword(auth, username, password);
+        //    const response = await signInWithEmailAndPassword(auth, username, password);
             //const token = response.user.accessToken;
             navigate('/hack')
         } catch (err) {
