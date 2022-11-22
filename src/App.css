@@ -46,3 +46,10 @@
     flex-direction: column;
   }
 }
+
+.button {
+  padding: 7px 50px;
+  margin-bottom:50px;
+  font-weight: bold;
+  font-size: 1.8rem;;
+}
